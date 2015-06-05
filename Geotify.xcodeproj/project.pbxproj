@@ -20,6 +20,7 @@
 		D9835AF31AA6076800D265BC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9835AF21AA6076800D265BC /* Utilities.swift */; };
 		D9C1AF6C1A77CD6C00A06B2F /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D9C1AF6B1A77CD6C00A06B2F /* TestLocations.gpx */; };
 		DC0B5B651B20FDE20005A471 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B5B641B20FDE20005A471 /* StoryBoard.swift */; };
+		DC7EE41D1B21ED6A00D4CFCC /* GeotificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EE41C1B21ED6A00D4CFCC /* GeotificationTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D9835AF21AA6076800D265BC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D9C1AF6B1A77CD6C00A06B2F /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
 		DC0B5B641B20FDE20005A471 /* StoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		DC7EE41C1B21ED6A00D4CFCC /* GeotificationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeotificationTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		D90CB6651A739B7A00228A1F /* GeotifyTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC7EE41C1B21ED6A00D4CFCC /* GeotificationTest.swift */,
 				DC0B5B641B20FDE20005A471 /* StoryBoard.swift */,
 				D90CB6681A739B7A00228A1F /* GeotifyTests.swift */,
 				D90CB6661A739B7A00228A1F /* Supporting Files */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0B5B651B20FDE20005A471 /* StoryBoard.swift in Sources */,
+				DC7EE41D1B21ED6A00D4CFCC /* GeotificationTest.swift in Sources */,
 				D90CB6691A739B7A00228A1F /* GeotifyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

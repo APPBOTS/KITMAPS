@@ -10,24 +10,21 @@ import UIKit
 import XCTest
 
 class StoryBoard: XCTestCase {
-var vc:GeotificationsViewController = GeotificationsViewController()
+var vc:AddGeotificationViewController = AddGeotificationViewController()
   
     override func setUp() {
-  
-        super.setUp()
-      var storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
-      vc = storyboard.instantiateViewControllerWithIdentifier("Mystoryboard") as! GeotificationsViewController
-      vc.loadView()
-      vc.viewDidLoad()
+
+      super.setUp()
+
     }
   
     override func tearDown() {
         super.tearDown()
     }
 
-  func testViewDidLoad() {
-    // assert that the ViewController.view is not nil
-    XCTAssertNotNil(vc.view,"")
+  func testViewDidLoad(){
+    
+    XCTAssertNotEqual(self.vc, AddGeotificationViewController(), "ok")
   }
-  
 }
+
